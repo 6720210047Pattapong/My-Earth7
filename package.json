@@ -1,0 +1,48 @@
+{
+  "name": "my-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "express": "^5.2.1",
+    "next": "16.2.10",
+    "prisma": "^5.22.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tsx": "^4.23.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
+  },
+  "description": "https://github.com/user-attachments/assets/137ca140-90a8-4e0d-9d97-ea83c6c46b99",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aratdapirasor-collab/lab7_form_103.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/aratdapirasor-collab/lab7_form_103/issues"
+  },
+  "homepage": "https://github.com/aratdapirasor-collab/lab7_form_103#readme"
+}
